@@ -1,0 +1,68 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .box{
+        background-color: rgb(20, 201, 20);
+    }
+    h1{
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .box{
+        background-color: rgb(9, 23, 228);
+    }
+    h1{
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .box{
+        background-color: rgb(197, 18, 221);
+    }
+    h1{
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .box{
+        background-color: rgb(241, 226, 7);
+    }
+    h1{
+        font-size: 60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    .box{
+        background-color: rgb(137, 141, 138);
+    }
+    h1{
+        font-size: 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+}
+
+/*  Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
